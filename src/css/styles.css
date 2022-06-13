@@ -18,3 +18,35 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-list { 
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+
+.country-body {
+  padding-left: 40px;
+}
+
+img {
+  width: 30px;
+}
+
+.img-country {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.img-name {
+  display: flex;
+}
+
+.country {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
